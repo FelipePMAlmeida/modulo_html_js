@@ -6,7 +6,7 @@ console.log(numeroA.value);
 console.log(numeroB.value);
 
 function comparaNumeros(numero1, numero2){
-    return numero1.value < numero2.value;
+    return parseInt(numero1.value) < parseInt(numero2.value);
 }
 
 form.addEventListener('submit', function(e){
